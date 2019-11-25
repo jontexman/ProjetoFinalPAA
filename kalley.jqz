@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="">
+</rdf:Description>
+</rdf:RDF>
+<version>6</version>
+<data>
+<title>Conceitos Gerais de Grafos</title>
+<timer>
+<include-timer>0</include-timer>
+<seconds>59</seconds>
+</timer>
+<reading>
+<reading-text></reading-text>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+</reading>
+<questions>
+<question-record>
+<question>(FCC - 2010 - Companhia do Metropolitano de S&amp;#x00e3;o Paulo - Analista Trainee Ci&amp;#x00ea;ncias da computa&amp;#x00e7;&amp;#x00e3;o) &amp;#x00c9; uma no&amp;#x00e7;&amp;#x00e3;o simples, abstrata e intuitiva, usada para representar a ideia de alguma esp&amp;#x00e9;cie de rela&amp;#x00e7;&amp;#x00e3;o entre os objetos. Graficamente, aparece representado por uma figura com n&amp;#x00f3;s ou v&amp;#x00e9;rtices. Trata-se dos</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>objetos geom&amp;#x00e9;tricos.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>tri&amp;#x00e2;ngulos</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>grafos.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>dados.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>registros.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(FUNDEP - 2014 - IFSP - Programa&amp;#x00e7;&amp;#x00e3;o Banco de Dados) Considerando-se os conceitos b&amp;#x00e1;sicos de grafos e algoritmos em grafos, assinale a alternativa INCORRETA.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Grafo: conjunto de v&amp;#x00e9;rtices e arestas.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>V&amp;#x00e9;rtice: objeto simples que pode ter nome e outros atributos.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Grafo completo: grafo n&amp;#x00e3;o direcionado, no qual todos os pares de v&amp;#x00e9;rtices s&amp;#x00e3;o
+adjacentes.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Aresta: conex&amp;#x00e3;o entre dois grafos.</text>
+<feedback>&amp;#x00c9; uma conex&amp;#x00e3;o entre dois v&amp;#x00e9;rtices.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(FCC - 2012 - Tribunal de Contas do Amap&amp;#x00e1; - Analista de Controle Externo) Um grafo consiste num conjunto de n&amp;#x00f3;s (ou v&amp;#x00e9;rtices) e num conjunto de arcos (ou arestas). &amp;#x00c9; correto afirmar que o grau de um n&amp;#x00f3; &amp;#x00e9;</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>o n&amp;#x00fa;mero de arcos incidentes nesse n&amp;#x00f3;.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>um n&amp;#x00fa;mero associado ao arco, tamb&amp;#x00e9;m chamado de
+peso.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>a dist&amp;#x00e2;ncia entre este n&amp;#x00f3; e um outro n&amp;#x00f3; qualquer do
+grafo.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>a posi&amp;#x00e7;&amp;#x00e3;o deste n&amp;#x00f3; em rela&amp;#x00e7;&amp;#x00e3;o ao n&amp;#x00f3; raiz do grafo.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>o n&amp;#x00fa;mero de pares ordenados que formam o arco.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(FCC - 2009 - TJ do Estado de Sergipe - Analista Judici&amp;#x00e1;rio - &amp;#x00c1;rea Apoio Especializado Especialidade An&amp;#x00e1;lise de Sistemas) Um grafo cujo n&amp;#x00f3; de partida de um caminho coincide com o n&amp;#x00f3; de chegada caracteriza um grafo.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>completo.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>c&amp;#x00ed;clico.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>sim&amp;#x00e9;trico.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>conexo.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>regular.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(FCC - 2012 - TRT 11&amp;#x00ba; Regi&amp;#x00e3;o - &amp;#x00c1;rea Apoio Especializado Especialidade Tecnologia da Informa&amp;#x00e7;&amp;#x00e3;o - adaptado) O grafo em que os arcos possuem um n&amp;#x00fa;mero ou peso associados a eles, &amp;#x00e9; chamado de grafo</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>predecessor.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>adjacente.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>incidente.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>ponderado.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>orientado.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(FCC - 2012  - TRT 11&amp;#x00ba; Regi&amp;#x00e3;o - T&amp;#x00e9;cnico Judici&amp;#x00e1;rio - &amp;#x00c1;rea Apoio Especializado Especialidade Tecnologia da Informa&amp;#x00e7;&amp;#x00e3;o - adaptado) Cada arco em um grafo &amp;#x00e9; especificado por um par de n&amp;#x00f3;s. Se os pares de n&amp;#x00f3;s que formam o arco forem pares ordenados, diz-se que o grafo &amp;#x00e9;</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>incidente.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>ponderado.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>adjacente.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>orientado.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>sucessor.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(CESPE - 2012 - Banco da Amaz&amp;#x00f4;nia - T&amp;#x00e9;cnico Cient&amp;#x00ed;fico - Administra&amp;#x00e7;&amp;#x00e3;o de Dados) A implementa&amp;#x00e7;&amp;#x00e3;o de um grafo do tipo ponderado e direcionado na forma de uma matriz de adjac&amp;#x00ea;ncia utiliza menor quantidade de mem&amp;#x00f3;ria que a implementa&amp;#x00e7;&amp;#x00e3;o desse mesmo grafo na forma de uma lista encadeada.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeiro.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falso.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(CESPE - 2012 - Banco da Amaz&amp;#x00f4;nia - T&amp;#x00e9;cnico Cient&amp;#x00ed;fico - Administra&amp;#x00e7;&amp;#x00e3;o de Dados) Um algoritmo que visita todos os v&amp;#x00e9;rtices de um grafo, cada um somente uma vez, est&amp;#x00e1; percorrendo o grafo. Esse algoritmo pode percorrer o grafo em largura ou em profundidade.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeiro.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falso.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(CESPE - 2012 - Banco da Amaz&amp;#x00f4;nia - T&amp;#x00e9;cnico Cient&amp;#x00ed;fico - Administra&amp;#x00e7;&amp;#x00e3;o de Dados) Um grafo n&amp;#x00e3;o direcionado &amp;#x00e9; dito conectado quando h&amp;#x00e1; pelo menos um caminho entre dois v&amp;#x00e9;rtices quaisquer do grafo.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeiro.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falso.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(CESPE - 2012 - Banco da Amaz&amp;#x00f4;nia - T&amp;#x00e9;cnico Cient&amp;#x00ed;fico - Administra&amp;#x00e7;&amp;#x00e3;o de Dados) Uma &amp;#x00e1;rvore de espalhamento de um grafo ponderado conectado &amp;#x00e9; m&amp;#x00ed;nima se a soma dos pesos de todas as arestas for m&amp;#x00ed;nima.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeiro.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falso.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(CESPE - 2012 - Banco da Amaz&amp;#x00f4;nia - T&amp;#x00e9;cnico Cient&amp;#x00ed;fico - Administra&amp;#x00e7;&amp;#x00e3;o de Dados) Um grafo completo cont&amp;#x00e9;m pelo menos um subgrafo ponderado.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeiro.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falso.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(CESPE - 2004 - Banco da Amaz&amp;#x00f4;nia - T&amp;#x00e9;cnico cient&amp;#x00ed;fico - &amp;#x00c1;rea: Tecnologia da informa&amp;#x00e7;&amp;#x00e3;o) Os grafos n&amp;#x00e3;o-dirigidos representam rela&amp;#x00e7;&amp;#x00f5;es sim&amp;#x00e9;tricas, isto &amp;#x00e9;, sempre existem arcos nos dois sentidos entre pares de n&amp;#x00f3;s para os quais a rela&amp;#x00e7;&amp;#x00e3;o &amp;#x00e9; v&amp;#x00e1;lida.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeiro.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falso.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(FCC - 2009 - MP do Estado do Sergipe - Analista do Minist&amp;#x00e9;rio P&amp;#x00fa;blico Especialidade An&amp;#x00e1;lise de Sistemas) Um algoritmo que pode ser usado para caminhar pela estrutura e retornar informa&amp;#x00e7;&amp;#x00f5;es &amp;#x00fa;teis para a resolu&amp;#x00e7;&amp;#x00e3;o do problema. Uma estrutura de links do tipo &amp;#x201c;Wikipedia&amp;#x201d; &amp;#x00e9; um modelo que pode ser representado por esta categoria de algoritmo, ou seja, os v&amp;#x00e9;rtices s&amp;#x00e3;o os artigos e &amp;#x201c;existe uma aresta do artigo X para o artigo Y se e somente se X
+cont&amp;#x00e9;m um link para Y&amp;#x201d;. As caracter&amp;#x00ed;sticas elencadas representam um algoritmo</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>gen&amp;#x00e9;tico.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>de programa&amp;#x00e7;&amp;#x00e3;o din&amp;#x00e2;mica.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>de divis&amp;#x00e3;o e conquista.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>de programa&amp;#x00e7;&amp;#x00e3;o linear.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>de explora&amp;#x00e7;&amp;#x00e3;o de grafo.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(Lista de exerc&amp;#x00ed;cios 9 - UFMG/ICEx/DCC - Ci&amp;#x00ea;ncias Exatas &amp;#x0026; Engenharias - adaptado) &amp;#x00c9; poss&amp;#x00ed;vel haver um grafo simples com 15 v&amp;#x00e9;rtices, cada um com grau 5.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Verdadeiro.</text>
+<feedback>Resposta incorreta. O grau desse suposto grafo seria 15 &amp;#x00d7; 5 = 75, que &amp;#x00e9; um n&amp;#x00fa;mero &amp;#x00ed;mpar. Sabe-se que o grau de qualquer grafo deve ser um n&amp;#x00fa;mero par.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>Falso.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(Lista de exerc&amp;#x00ed;cios 9 - UFMG/ICEx/DCC - Ci&amp;#x00ea;ncias Exatas &amp;#x0026; Engenharias - adaptado) Quantos v&amp;#x00e9;rtices (V) e quantas arestas (E) tem o grafo K(m, n) (grafo bipartido completo)?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>|V| = m + n
+|E| = n*(n - 1)/2</text>
+<feedback>Resposta incorreta. Esse n&amp;#x00e3;o &amp;#x00e9; um grafo somente completo.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>|V| = n
+|E| = m * n</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>|V| = m + n
+|E| = m * n</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>|V| = n
+|E| = n</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(Lista de exerc&amp;#x00ed;cios 9 - UFMG/ICEx/DCC - Ci&amp;#x00ea;ncias Exatas &amp;#x0026; Engenharias - adaptado) Quantos v&amp;#x00e9;rtices (V) e quantas arestas (E) tem o grafo K(n) (grafo completo)?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>|V| = n
+|E| = n</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>|V| = n
+|E| = n*(n - 1)/2</text>
+<feedback>Resposta correta. Existem n v&amp;#x00e9;rtices, cada um com grau n -1.  Assim, a quantidade de arestas &amp;#x00e9; dada pela metade desse produto.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>|V| = n
+|E| = 2^n</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>|V| = n + 1
+|E| = 2n</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(Lista de exerc&amp;#x00ed;cios 9 - UFMG/ICEx/DCC - Ci&amp;#x00ea;ncias Exatas &amp;#x0026; Engenharias - adaptado) Quantas arestas tem um grafo com v&amp;#x00e9;rtices de graus 5, 2, 2, 2, 2, 1?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>5 arestas.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>6 arestas.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>7 arestas.</text>
+<feedback>Resposta correta. O grafo possui seis v&amp;#x00e9;rtices e tem um grau total de 5 + 2 + 2 + 2 + 2 + 1 = 14.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>8 arestas.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(Lista de exerc&amp;#x00ed;cios 9 - UFMG/ICEx/DCC - Ci&amp;#x00ea;ncias Exatas &amp;#x0026; Engenharias - adaptado) Para que valores de n o grafo completo K(n) &amp;#x00e9; regular?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>valores de n &amp;#x00ed;mpares</text>
+<feedback>Resposta incompleta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>todos os valores de n pares.</text>
+<feedback>Resposta incompleta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>todos os valores de n &amp;#x003E;= 1.</text>
+<feedback>Resposta correta. Isso acontece pois o grau de cada v&amp;#x00e9;rtice &amp;#x00e9; n - 1.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>valores de n que s&amp;#x00e3;o pot&amp;#x00ea;ncias de 2.</text>
+<feedback>Resposta incompleta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(Lista de exerc&amp;#x00ed;cios 9 - UFMG/ICEx/DCC - Ci&amp;#x00ea;ncias Exatas &amp;#x0026; Engenharias - adaptado) O grafo complementar G* de um grafo simples G tem os mesmos v&amp;#x00e9;rtices de G. Dois v&amp;#x00e9;rtices s&amp;#x00e3;o adjacentes em G* se, e somente se, eles n&amp;#x00e3;o s&amp;#x00e3;o adjacentes  em G. Dessa forma determine K(n)*.</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>K(n)* &amp;#x00e9; o grafo com um &amp;#x00fa;nico v&amp;#x00e9;rtice.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>K(n)* &amp;#x00e9; o grafo com nenhum v&amp;#x00e9;rtice.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>K(n)* &amp;#x00e9; o grafo com uma &amp;#x00fa;nica aresta.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>K(n)* &amp;#x00e9; o grafo com nenhuma aresta.</text>
+<feedback>Resposta correta.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+<question-record>
+<question>(Lista de exerc&amp;#x00ed;cios 9 - UFMG/ICEx/DCC - Ci&amp;#x00ea;ncias Exatas &amp;#x0026; Engenharias) Seja uma matriz sim&amp;#x00e9;trica quadrada formada apenas por 0&apos;s e 1&apos;s que tem apenas 0&apos;s na diagonal principal. Essa matriz pode representar a matriz de adjac&amp;#x00ea;ncia de um grafo simples?</question>
+<clue></clue>
+<category></category>
+<weighting>100</weighting>
+<fixed>0</fixed>
+<question-type>1</question-type>
+<answers>
+<answer><text>Sim.</text>
+<feedback>Resposta correta. Um grafo simples &amp;#x00e9; um grafo que n&amp;#x00e3;o possui la&amp;#x00e7;os nem arestas paralelas. Se um grafo possuir um la&amp;#x00e7;o, haver&amp;#x00e1; uma entrada diferente de zero na diagonal principal. Se um grafo possuir arestas paralelas entre os v&amp;#x00e9;rtices u e v, haver&amp;#x00e1; um valor maior que 1 nas entradas [u, v] e [v, u] da matriz de adjac&amp;#x00ea;ncia. Como nenhuma dessas duas condi&amp;#x00e7;&amp;#x00f5;es ocorre, essa matriz de adjac&amp;#x00ea;ncia representa um grafo simples.</feedback>
+<correct>1</correct>
+<percent-correct>100</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text>N&amp;#x00e3;o.</text>
+<feedback>Resposta incorreta.</feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer><answer><text></text>
+<feedback></feedback>
+<correct>0</correct>
+<percent-correct>0</percent-correct>
+<include-in-mc-options>1</include-in-mc-options>
+</answer></answers>
+</question-record>
+</questions></data>
+<hotpot-config-file>
+<global>
+<separate-js-file>0</separate-js-file>
+<clue-caption>Clue</clue-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<incorrect-indicator>X</incorrect-indicator>
+<font-size>small</font-size>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<include-next-ex>1</include-next-ex>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<restart-caption>Restart</restart-caption>
+<contents-url>contents.htm</contents-url>
+<include-timer>0</include-timer>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<include-scorm-12>0</include-scorm-12>
+<user-string-3>three</user-string-3>
+<show-correct-first-time>0</show-correct-first-time>
+<user-string-2>two</user-string-2>
+<user-string-1>one</user-string-1>
+<vlink-color>#0000CC</vlink-color>
+<title-color>#000033</title-color>
+<correct-indicator>:-)</correct-indicator>
+<contents-caption>Index</contents-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<undo-caption>Undo</undo-caption>
+<header-code></header-code>
+<hint-caption>Hint</hint-caption>
+<check-button-caption>Check</check-button-caption>
+<email>you@yourserver.com</email>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<name-please>Please enter your name:</name-please>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<text-color>#000000</text-color>
+<page-bg-color>#ffffff</page-bg-color>
+<times-up>Your time is over!</times-up>
+<nav-bar-color>#000066</nav-bar-color>
+<include-contents>1</include-contents>
+<your-score-is>Your score is </your-score-is>
+<graphic-url></graphic-url>
+<link-color>#0000FF</link-color>
+<keypad-characters></keypad-characters>
+<show-also-correct>1</show-also-correct>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<include-cgi>0</include-cgi>
+<ex-bg-color>#bbbbee</ex-bg-color>
+<ok-caption>OK</ok-caption>
+<process-for-rtl>0</process-for-rtl>
+<check-caption>Check</check-caption>
+<include-back>1</include-back>
+<next-correct-letter>Next correct letter is: </next-correct-letter>
+</global>
+<jquiz>
+<next-caption>Next</next-caption>
+<instructions>JQuiz Instructions</instructions>
+<enter-a-guess>Please enter a guess, then check.</enter-a-guess>
+<completed-so-far>Completed so far:</completed-so-far>
+<correct-list>Correct answers:</correct-list>
+<header-code></header-code>
+<include-hint>0</include-hint>
+<include-keypad>0</include-keypad>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<partly-incorrect>Your answer is partly incorrect.</partly-incorrect>
+<guess-incorrect>Not perfect yet. Please try again.</guess-incorrect>
+<case-sensitive>0</case-sensitive>
+<continuous-scoring>1</continuous-scoring>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<exercise-subtitle></exercise-subtitle>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<correct-answers>Correct answers: </correct-answers>
+<questions-to-show>10</questions-to-show>
+<shuffle-answers>0</shuffle-answers>
+<guess-correct>Correct!</guess-correct>
+<next-correct-letter>Next correct letter is: </next-correct-letter>
+<show-limited-questions>0</show-limited-questions>
+<shuffle-questions>0</shuffle-questions>
+<include-show-answer>1</include-show-answer>
+<show-correct-first-time>0</show-correct-first-time>
+<separate-javascript-file>0</separate-javascript-file>
+<delete-caption>Delete This Flashcard</delete-caption>
+<show-answer-caption>Show Answer</show-answer-caption>
+</jquiz>
+</hotpot-config-file>
+
+</hotpot-jquiz-file>
