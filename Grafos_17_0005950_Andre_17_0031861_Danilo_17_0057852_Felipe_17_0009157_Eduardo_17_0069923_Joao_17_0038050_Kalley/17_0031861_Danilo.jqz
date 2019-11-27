@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>danilo</dc:creator>
+    <dc:title>Algoritmos de Tarjan e Kosaraju</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Algoritmos de Tarjan e Kosaraju</title>
+
+<timer><seconds>59</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Um v&amp;#x00E9;rtice de um grafo &amp;#x00E9; fortemente ligado a outro se um est&amp;#x00E1; ao alcance do outro e vice-versa.  Em outras palavras, um v&amp;#x00E9;rtice s &amp;#x00E9; fortemente ligado a um v&amp;#x00E9;rtice t se existe um caminho de s a t e tamb&amp;#x00E9;m um caminho de t a s. Quais pares de v&amp;#x00E9;rtices s&amp;#x00E3;o fortemente ligados no grafo abaixo?
+
+0:  1
+1:  2
+2:  3 5
+3:  4
+4:  3
+5:  1 3</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Os pares 2-5, e 3-4.</text><feedback>Incorreto, h&amp;#x00E1; mais um par fortemente ligados no grafo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Os pares 3-4, 2-5, e 1-2.</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O par 1-2.</text><feedback>Incorreto, h&amp;#x00E1; mais pares fortemente ligados no grafo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Os pares 0-1 e 3-5.</text><feedback>Incorreto, o par 0-1 n&amp;#x00E3;o &amp;#x00E9; fortemente ligado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Um grafo &amp;#x00E9; fortemente conexo se cada um de seus v&amp;#x00E9;rtices &amp;#x00E9; fortemente ligado a cada um dos demais. Marque a alternativa que avalia corretamente o grafo abaixo:
+
+1: 2 3
+2: 1 3
+3: 1 2
+4: 2 5
+5: 4 3</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>O grafo &amp;#x00E9; conexo.</text><feedback>Incorreto, pois h&amp;#x00E1; dois v&amp;#x00E9;rtices que n&amp;#x00E3;o s&amp;#x00E3;o fortemente ligados aos demais.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O grafo n&amp;#x00E3;o &amp;#x00E9; conexo, pois os v&amp;#x00E9;rtice 1 e 2 s&amp;#x00E3;o fortemente ligados apenas entre si.</text><feedback>Incorreto, pois os v&amp;#x00E9;rtices 1 e 2 s&amp;#x00E3;o fortemente ligados a outros v&amp;#x00E9;rtices do grafo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O grafo n&amp;#x00E3;o &amp;#x00E9; conexo, pois os v&amp;#x00E9;rtices 3 e 2 s&amp;#x00E3;o fortemente ligados apenas entre si.</text><feedback>Incorreto, pois os v&amp;#x00E9;rtices 3 e 2 s&amp;#x00E3;o fortemente ligados a outros v&amp;#x00E9;rtices do grafo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O grafo n&amp;#x00E3;o &amp;#x00E9; conexo, pois os v&amp;#x00E9;rtices 4 e 5 s&amp;#x00E3;o fortemente ligados entre si, mas n&amp;#x00E3;o aos demais.</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Um componente forte de um grafo &amp;#x00E9; um subgrafo fortemente conexo. Para o grafo abaixo, marque a alternativa que identifica corretamente os seus componentes fortes.
+
+0: 1 5
+1:
+2: 0 3
+3: 2 5
+4: 2 3
+5: 4
+6: 0 4 9
+7: 6 8
+8: 7 9
+9: 10 11
+10: 12
+11: 4 12
+12: 9</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Os conjuntos {7 8 6}, {9 10 11 12}, {0 2 3 4 5} e {1}.</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice 6 n&amp;#x00E3;o &amp;#x00E9; fortemente ligado aos v&amp;#x00E9;rtices 7 e 8.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Os conjuntos {7 8 1}, {6}, {9 10 11 12}, {0 2 3 4 5}.</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice 1 n&amp;#x00E3;o &amp;#x00E9; fortemente ligado aos v&amp;#x00E9;rtices 7 e 8.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Os conjuntos {7 8}, {6}, {9 10 11 12}, {0 2 3 4} e {5 1}.</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice 5 n&amp;#x00E3;o &amp;#x00E9; fortemente ligado ao v&amp;#x00E9;rtice 1.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Os conjuntos {7 8}, {6}, {9 10 11 12}, {0 2 3 4 5} e {1}.</text><feedback>Correto, cada um dos conjuntos &amp;#x00E9; um subgrafo fortemente conexo.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Um grafo &amp;#x00E9; ac&amp;#x00ED;clico ou topol&amp;#x00F3;gico quando n&amp;#x00E3;o possui caminhos fechados. As componentes fortes de um grafo ligam-se umas &amp;#x00E0;s outras formando o chamado grafo de componentes fortes. Marque a alternativa que avalia corretamente as liga&amp;#x00E7;&amp;#x00F5;es entre os componentes fortes do grafo abaixo.
+
+0:  1 6 
+1:  2 5
+2:  1 3
+3:  4
+4:  3
+5:  2
+6:  7 8
+7:  3 6 9
+8:  7 
+9:  
+
+componentes fortes: {0},  {1 2 5},  {3 4},  {6 7 8}  e {9}</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Os componentes {0} e {1 2 5} formam um caminho fechado, portanto o grafo de componentes fortes &amp;#x00E9; c&amp;#x00ED;clico.</text><feedback>Incorreto, pois os componentes {0} e {1 2 5} n&amp;#x00E3;o formam um caminho fechado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O grafo de componentes fortes &amp;#x00E9; ac&amp;#x00ED;clico.</text><feedback>Correto, pois n&amp;#x00E3;o h&amp;#x00E1; caminhos fechados entre os componentes fortes.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Os componentes {3 4} e {9} formam um caminho fechado, portanto o grafo de componentes fortes &amp;#x00E9; c&amp;#x00ED;clico.</text><feedback>Incorreto, pois os componentes {3 4} e {9} n&amp;#x00E3;o formam um caminho fechado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Os componentes fortes n&amp;#x00E3;o formam caminhos fechados entre eles, portanto o grafo n&amp;#x00E3;o &amp;#x00E9; topol&amp;#x00F3;gico.</text><feedback>Incorreto, pois se n&amp;#x00E3;o h&amp;#x00E1; caminhos fechados (ciclos), o grafo &amp;#x00E9; ac&amp;#x00ED;clico e portanto topol&amp;#x00F3;gico.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Marque a(s) alternativa(s) correta(s):</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Cada etapa da busca DFS em um grafo visita os v&amp;#x00E9;rtices de uma, e apenas uma, componente forte.</text><feedback>Incorreto, pois a busca DFS n&amp;#x00E3;o encontra todos os v&amp;#x00E9;rtices de um componente de uma vez.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Considere uma floresta DFS de um grafo G.  Cada &amp;#x00E1;rvore radicada que comp&amp;#x00F5;e a floresta corresponde a uma componente forte de G.</text><feedback>Incorreto, pois isso s&amp;#x00F3; &amp;#x00E9; verdade se o v&amp;#x00E9;rtice inicial de cada nova etapa for escolhido de uma maneira especial.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O grafo de componetes fortes de qualquer grafo &amp;#x00E9; ac&amp;#x00ED;clico.</text><feedback>Correto, pois se dois ou mais componentes fortes formassem um caminho fechado, siginificaria que existem liga&amp;#x00E7;&amp;#x00F5;es fortes entre eles e portanto seriam um componente forte maior.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Todo grafo n&amp;#x00E3;o-dirigido conexo &amp;#x00E9; fortemente conexo.</text><feedback>Correto, pois as arestas de um grafo n&amp;#x00E3;o-dirigido s&amp;#x00E3;o arcos g&amp;#x00EA;meos de ida e volta, caracterizando uma liga&amp;#x00E7;&amp;#x00E3;o forte com cada v&amp;#x00E9;rtice conectado.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Uma floresta de busca em profundidade &amp;#x00E9; um conjunto de uma ou mais &amp;#x00E1;rvores radicadas resultantes da busca em profundidade. Marque a alternativa que indica corretamente as &amp;#x00E1;rvores radicadas contidas no grafo abaixo:
+
+0: 1 4
+1:
+2: 0 3 4
+3: 4 5
+4: 1 5
+5: 1</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>A floresta possui duas &amp;#x00E1;rvores:
+
+&amp;#x00E1;rvore 1:
+
+2: 3                                           
+
+&amp;#x00E1;rvore 2:
+
+0: 4 1
+4: 5</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A floresta possui apenas uma &amp;#x00E1;rvore:
+
+0: 4 1
+4: 5</text><feedback>Incorreto, a floresta possui mais &amp;#x00E1;rvores.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A floresta possui duas &amp;#x00E1;rvores:
+
+&amp;#x00E1;rvore 1:
+
+2: 0 3 4                                    
+3: 4 5
+
+&amp;#x00E1;rvore 2:
+
+2: 3</text><feedback>Incorreto, a primeira lista de adjac&amp;#x00EA;ncia n&amp;#x00E3;o representa uma &amp;#x00E1;rvore.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>A floresta possui apenas uma &amp;#x00E1;rvore:
+
+2: 3</text><feedback>Incorreto, a floresta possui mais &amp;#x00E1;rvores.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Dado um grafo G o seu grafo reverso &amp;#x00E9; obtido invertendo a dire&amp;#x00E7;&amp;#x00E3;o de cada um dos seus arcos. Marque a alternativa que mostra o rever&amp;#x00E7;o do grafo abaixo:
+
+0:  3 4  
+1:  3  
+2:  4 7  
+3:  5 6 7   
+4:  6    
+5:      
+6:    
+7:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>0:  
+1:  
+2:  
+3:  0 1
+4:  0 2
+5:  3
+6:  3 4
+7:  2 3</text><feedback>Correto, cada aresta &amp;#x00E9; o inverso da original.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>0:  3
+1:  
+2:  
+3:  1
+4:  0 2
+5:  3
+6:  3 4
+7:  2 3</text><feedback>Incorreto, pois a aresta 0-&amp;#x003E;3 n&amp;#x00E3;o foi invertida.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>0:  3 4  
+1:  3  
+2:  4 7  
+3:  5 6 7   
+4:  6    
+5:      
+6:    
+7:</text><feedback>Incorreto, pois nenhuma aresta foi invertida.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>0:  
+1:  
+2:  
+3:  0 1 5
+4:  0 2
+5:  
+6:  3 4
+7:  2 3</text><feedback>Incorreto, pois a aresta 3-&amp;#x003E;5 n&amp;#x00E3;o foi invertida.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Para decidir se um grafo G &amp;#x00E9; ou n&amp;#x00E3;o fortemente conexo basta verificar se cada um dos seus v&amp;#x00E9;rtices est&amp;#x00E1; ao alcance de cada um dos outros. Mas esse algoritmo &amp;#x00E9; muito lento. No pior caso, o tempo consumido seria proporcional a qual das alternativas abaixo? (V=n&amp;#x00FA;mero de v&amp;#x00E9;rtices, A=n&amp;#x00FA;mero de arestas).</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>V(V+A)</text><feedback>Incorreto, pois no pior caso haveriam arestas de ida e de volta entre todos os v&amp;#x00E9;rtices.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>V+A</text><feedback>Incorreto, pois no pior caso haveriam arestas de ida e de volta entre todos os v&amp;#x00E9;rtices.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VA</text><feedback>Incorreto, pois no pior caso haveriam arestas de ida e de volta entre todos os v&amp;#x00E9;rtices.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>V^2(V + A)</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Marque a alternativa que indica corretamente os componentes fortes do grafo abaixo em ordem topol&amp;#x00F3;gica:
+
+0:  1 6 
+1:  2 5
+2:  1 3
+3:  4
+4:  3
+5:  2
+6:  7 8
+7:  3 6 9
+8:  7 
+9:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>{0}, {1 2 5},  {3 4},  {6 7 8 9}</text><feedback>Incorreto, pois 9 n&amp;#x00E3;o pertence ao componete {6 7 8}.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>{0}, {1 2 5},  {3 4},  {6 7 8}  e {9}</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>{0}, {1 2 5},  {3 4},  {9} e {6 7 8}</text><feedback>Incorreto, pois em ordem topol&amp;#x00F3;gica o componente {6 7 8} vem antes do componente {9}.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>{1 2 5}, {0}, {3 4},  {6 7 8}  e {9}</text><feedback>Incorreto, pois em ordem topol&amp;#x00F3;gica o componente {0} vem antes do componente {1 2 5}.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Marque a alternativa que indica os dois principais algoritmos utilizados para encontrar componentes fortes de um grafo:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Busca em largura e busca em profundidade.</text><feedback>Incorreto, pois a busca em profundidade apenas faz parte dos algoritmos utilizados e a busca em largura n&amp;#x00E3;o &amp;#x00E9; utilizada.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O algoritmo de Dijkstra e o algoritmo de Bellman-Ford.</text><feedback>Incorreto, pois os algoritmos de Dijkstra e Bellman-Ford s&amp;#x00E3;o utilizados para encontrar caminhos baratos.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O algoritmo de Prim e o algoritmo de Kruskal.</text><feedback>Incorreto, pois os algoritmos de Prim e Kruskal s&amp;#x00E3;o utilizados para encontrar &amp;#x00E1;rvores geradoras baratas.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>O algoritmo de Tarjan e o algoritmo de Kosaraju.</text><feedback>Correto, Tarjan e Kosaraju s&amp;#x00E3;o os algoritmos mais eficientes para busca de componentes fortes.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Marque a alternativa que descreve corretamente a primeira fase do Algoritmo de Kosaraju:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Ao receber um grafo G, inverta a dire&amp;#x00E7;&amp;#x00E3;o de cada arco, obtendo assim o grafo reverso GR.  Em seguida, fa&amp;#x00E7;a uma busca DFS em GR para calcular uma permuta&amp;#x00E7;&amp;#x00E3;o em pr&amp;#x00E9;-ordem, digamos  v0 v1 v2 &amp;#x2026; vn-1, dos v&amp;#x00E9;rtices de GR.</text><feedback>Incorreto, pois a busca DFS em GR &amp;#x00E9; para calcular uma permuta&amp;#x00E7;&amp;#x00E3;o em p&amp;#x00F3;s-ordem.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ao receber um grafo G, fa&amp;#x00E7;a uma busca DFS para calcular uma permuta&amp;#x00E7;&amp;#x00E3;o em p&amp;#x00F3;s-ordem, digamos  v0 v1 v2 &amp;#x2026; vn-1, dos v&amp;#x00E9;rtices de GR.</text><feedback>Incorreto, pois primeiramente devemos obter o grafo reverso e realizar a busca DFS nele.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ao receber um grafo G, inverta a dire&amp;#x00E7;&amp;#x00E3;o de cada arco, obtendo assim o grafo reverso GR.  Em seguida, fa&amp;#x00E7;a uma busca em largura em GR para calcular uma permuta&amp;#x00E7;&amp;#x00E3;o em p&amp;#x00F3;s-ordem, digamos  v0 v1 v2 &amp;#x2026; vn-1, dos v&amp;#x00E9;rtices de GR.</text><feedback>Incorreto, pois a busca deve ser feita em profundidade n&amp;#x00E3;o em largura.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ao receber um grafo G, inverta a dire&amp;#x00E7;&amp;#x00E3;o de cada arco, obtendo assim o grafo reverso GR.  Em seguida, fa&amp;#x00E7;a uma busca DFS em GR para calcular uma permuta&amp;#x00E7;&amp;#x00E3;o em p&amp;#x00F3;s-ordem, digamos  v0 v1 v2 &amp;#x2026; vn-1, dos v&amp;#x00E9;rtices de GR.</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Marque a alternativa que descreve corretamente a segunda fase do Algoritmo de Kosaraju:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Fa&amp;#x00E7;a uma busca DFS em G examinando os v&amp;#x00E9;rtices na ordem  vn-1 &amp;#x2026; v2 v1 v0  para iniciar cada nova etapa da busca.  Em cada etapa da busca, o conjunto dos v&amp;#x00E9;rtices descobertos induz uma componente forte de G.</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Fa&amp;#x00E7;a uma busca em largura em G examinando os v&amp;#x00E9;rtices na ordem  vn-1 &amp;#x2026; v2 v1 v0  para iniciar cada nova etapa da busca.  Em cada etapa da busca, o conjunto dos v&amp;#x00E9;rtices descobertos induz uma componente forte de G.</text><feedback>Incorret, pois deve ser feita uma busca em profundidade.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Fa&amp;#x00E7;a uma busca DFS em GR examinando os v&amp;#x00E9;rtices na ordem  v0 v1 v2 &amp;#x2026; vn-1 para iniciar cada nova etapa da busca.  Em cada etapa da busca, o conjunto dos v&amp;#x00E9;rtices descobertos induz uma componente forte de G.</text><feedback>Incorreto, pois a ordem deveria ser vn-1 &amp;#x2026; v2 v1 v0.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Ao receber um grafo G, inverta a dire&amp;#x00E7;&amp;#x00E3;o de cada arco, obtendo assim o grafo reverso GR.  Em seguida, fa&amp;#x00E7;a uma busca DFS em GR para calcular uma permuta&amp;#x00E7;&amp;#x00E3;o em p&amp;#x00F3;s-ordem, digamos  v0 v1 v2 &amp;#x2026; vn-1, dos v&amp;#x00E9;rtices de GR</text><feedback>Incorreto, pois essa seria a primeira fase do algoritmo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Dado o grafo G abaixo, aplique a primeira fase do algoritmo de Kosaraju e marque a alternativa que indica corretamente os v&amp;#x00E9;rtices do grafo reverso GR em p&amp;#x00F3;s-ordem: 
+
+a:  b g  
+b:  c f  
+c:  b d  
+d:  e    
+e:  d    
+f:  c    
+g:  h i  
+h:  d g j
+i:  h    
+j:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>a f c b e g i h d j</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a b c d e f g h i j</text><feedback>Incorreto, pois n&amp;#x00E3;o est&amp;#x00E1; em p&amp;#x00F3;s-ordem.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a e i b d f g h j</text><feedback>Incorreto, pois n&amp;#x00E3;o est&amp;#x00E1; em p&amp;#x00F3;s-ordem.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>i j h g f e d c b a</text><feedback>Incorreto, pois n&amp;#x00E3;o est&amp;#x00E1; em p&amp;#x00F3;s-ordem.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Aplique a segunda fase do algoritmo de Kosaraju, considerando os v&amp;#x00E9;rtices na ordem  j-d-h-i-g-e-b-c-f-a  e o grafo abaixo, e marque a alternativa  que indica corretamente os componentes fortes encontrados em ordem topol&amp;#x00F3;gica:
+
+a:  b g  
+b:  c f  
+c:  b d  
+d:  e    
+e:  d    
+f:  c    
+g:  h i  
+h:  d g j
+i:  h    
+j:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>{j d e}, {h g i}, {d e f} e {a}</text><feedback>Incorreto, pois j n&amp;#x00E3;o faz parte do componente forte {de}.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>{j}, {d e}, {h g i}, {d e f} e {a}</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>{j}, {d e}, {h g i}, {d e f} e {a}</text><feedback>Incorreto, pois o componente {d e f} vem antes do componente {a} em ordem topol&amp;#x00F3;gica.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>{h g i}, {j}, {a}, {d e f} e {d e}</text><feedback>Incorreto, pois n&amp;#x00E3;o est&amp;#x00E3;o em ordem topol&amp;#x00F3;gica.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Marque a alternativa que indica corretamente a ordem do consumo de tempo do algoritmo de Kosaraju:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>V^2(V+A)</text><feedback>Incorreto, pois o algoritmo consiste de duas buscas em profundidade e uma invers&amp;#x00E3;o do grafo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>V + A</text><feedback>Correto, pois o algoritmo consiste de duas buscas em profundidade e uma invers&amp;#x00E3;o do grafo.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VA</text><feedback>Incorreto, pois o algoritmo consiste de duas buscas em profundidade e uma invers&amp;#x00E3;o do grafo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>V(V+A)</text><feedback>Incorreto, pois o algoritmo consiste de duas buscas em profundidade e uma invers&amp;#x00E3;o do grafo.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>O algoritmo de Tarjan para componentes fortes &amp;#x00E9; uma extens&amp;#x00E3;o da busca em profundidade. Depois de uma busca DFS, a cabe&amp;#x00E7;a de uma componente forte &amp;#x00E9; o v&amp;#x00E9;rtice da componente que tem o menor n&amp;#x00FA;mero de pr&amp;#x00E9;-ordem, ou seja, a cabe&amp;#x00E7;a &amp;#x00E9; o primeiro v&amp;#x00E9;rtice da componente descoberto pela busca. Considerando o grafo abaixo, marque a alternativa que indica corretamente as cabe&amp;#x00E7;as das componentes fortes encontradas pela busca DFS:
+
+0:  1 6 
+1:  2 5
+2:  1 3
+3:  4
+4:  3
+5:  2
+6:  7 8
+7:  3 6 9
+8:  7 
+9:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>3, 1, 9, 6 e 7</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice 7 n&amp;#x00E3;o &amp;#x00E9; a cabe&amp;#x00E7;a de uma componente forte.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3, 1, 9, 6 e 0</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3, 2, 9, 6 e 0</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice 2 n&amp;#x00E3;o &amp;#x00E9; a cabe&amp;#x00E7;a de uma componente forte.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>3, 1, 9, 6 e 8</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice 8 n&amp;#x00E3;o &amp;#x00E9; a cabe&amp;#x00E7;a de uma componente forte.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question> Dada uma floresta DFS de um grafo, dizemos que um arco x-y do grafo  abra&amp;#x00E7;a  um v&amp;#x00E9;rtice v da floresta se
+
+ 1-  x &amp;#x00E9; descendente de v,
+ 2-  y n&amp;#x00E3;o &amp;#x00E9; descendente de v  e
+ 3-  existe um caminho de y at&amp;#x00E9; um ancestral pr&amp;#x00F3;prio de v
+
+Com base no grafo abaixo, encontre a floresta DFS e marque a alternativa que indica corretamente os arcos que abra&amp;#x00E7;am os v&amp;#x00E9;rtices: 
+
+a:  b
+b:  c
+c:  d g
+d:  e
+e:  b f
+f:  d
+g:  h
+h:  f</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>e-b, f-d e h-f</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>e-b, f-d e f-b</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice f-b n&amp;#x00E3;o abra&amp;#x00E7;a nenhum v&amp;#x00E9;rtice da &amp;#x00E1;rvore DFS.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>e-b, c-d e h-f</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice c-d n&amp;#x00E3;o abra&amp;#x00E7;a nenhum v&amp;#x00E9;rtice da &amp;#x00E1;rvore DFS.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>a-b, f-d e h-f</text><feedback>Incorreto, pois o v&amp;#x00E9;rtice a-b n&amp;#x00E3;o abra&amp;#x00E7;a nenhum v&amp;#x00E9;rtice da &amp;#x00E1;rvore DFS.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question> O lema do abra&amp;#x00E7;o oferece um crit&amp;#x00E9;rio para reconhecer cabe&amp;#x00E7;as de componentes fortes. Para que esse crit&amp;#x00E9;rio possa ser aplicado eficientemente, &amp;#x00E9; preciso introduzir o seguinte conceito auxiliar.  O n&amp;#x00FA;mero de pr&amp;#x00E9;-ordem m&amp;#x00ED;nimo (low[v]), sendo o m&amp;#x00ED;nimo tomado sobre todos os arcos x-y que abra&amp;#x00E7;am v. Para o grafo abaixo, marque a alternativa que indica corretamente low de cada v&amp;#x00E9;rtice para o resultado da busca DFS:
+
+a:  b
+b:  c
+c:  d f
+d:  e
+e:  d
+f:  b d</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>------v   a  b  c  d  e  f
+low[v]  0  1  1  3  3  1</text><feedback>Correto.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>------v   a  b  c  d  e  f
+low[v]  0  1  1  3  1  1</text><feedback>Incorreto, pois o low[e] n&amp;#x00E3;o &amp;#x00E9; 1.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>------v   a  b  c  d  e  f
+low[v]  0  1  1  3  3  0</text><feedback>Incorreto, pois o low[f] n&amp;#x00E3;o &amp;#x00E9; 0.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>----- v   a  b  c  d  e  f
+low[v]  0  1  0  3  3  2</text><feedback>Incorreto, pois o low[f] n&amp;#x00E3;o &amp;#x00E9; 2 e o low[c] n&amp;#x00E3;o &amp;#x00E9; 0.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Se nenhum arco abra&amp;#x00E7;a v low[v] = pre[v], em que pre[v] = n&amp;#x00FA;mero de pr&amp;#x00E9;-ordem de v, caso contr&amp;#x00E1;rio low[v] &amp;#x003C; pre[v]. Dessa forma podemos identificar de forma eficiente as cabe&amp;#x00E7;as dos componentes fortes, e dado que totos os v&amp;#x00E9;rtices do componente s&amp;#x00E3;o descendentes da cabe&amp;#x00E7;a, &amp;#x00E9; poss&amp;#x00ED;vel encontrar todos os componentes fortes do grafo. Com base nas informa&amp;#x00E7;&amp;#x00F5;es de low e pre abaixo, marque a alternativa que indica corretamente as cabe&amp;#x00E7;as de componentes fortes:
+
+----- v    a b c d e f g  h  i j k  l m
+pre[v]   0 1 4 5 3 2 6 11 12 7 8 10 9
+low[v]   0 1 0 2 0 0 6 11 11 7 7  9 7</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>b, a, j, g e h</text><feedback>Correto, pois pre e low s&amp;#x00E3;o iguais para cada um desses v&amp;#x00E9;rtices e portanto eles n&amp;#x00E3;o s&amp;#x00E3;o abra&amp;#x00E7;ados por nenhum arco.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>b, c, j, g e h</text><feedback>Incorreto, pois c n&amp;#x00E3;o &amp;#x00E9; a cabe&amp;#x00E7;a de um componente forte.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>b, a, j, g e k</text><feedback>Incorreto, pois k n&amp;#x00E3;o &amp;#x00E9; a cabe&amp;#x00E7;a de um componente forte.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>b, a, j, g, h e m</text><feedback>Incorreto, pois m n&amp;#x00E3;o &amp;#x00E9; a cabe&amp;#x00E7;a de um componente forte.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>Marque a alternativa que indica corretamente a ordem do consumo de tempo do algoritmo de Tarjan:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>V(V+A)</text><feedback>Incorreto, pois ele consiste apenas de uma busca em profundidade.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>VA</text><feedback>Incorreto, pois ele consiste apenas de uma busca em profundidade.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>V^2(V + A)</text><feedback>Incorreto, pois ele consiste apenas de uma busca em profundidade.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>V + A</text><feedback>Correto, &amp;#x00E9; assitoticamente equivalente ao algoritmo de Kosaraju.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle></exercise-subtitle>
+<instructions>JQuiz Instructions</instructions>
+<guess-correct>Correct!</guess-correct>
+<guess-incorrect>Not perfect yet. Please try again.</guess-incorrect>
+<partly-incorrect>Your answer is partly incorrect.</partly-incorrect>
+<enter-a-guess>Please enter a guess, then check.</enter-a-guess>
+<next-correct-letter>Next correct letter is: </next-correct-letter>
+<correct-answers>Correct answers: </correct-answers>
+<show-answer-caption>Show Answer</show-answer-caption>
+<include-hint>0</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>0</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>10</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<completed-so-far>Questions completed so far: </completed-so-far>
+<exercise-completed>You have completed the exercise.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>1</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#ffffff</page-bg-color>
+<title-color>#000033</title-color>
+<ex-bg-color>#bbbbee</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000066</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Questions answered correctly first time: </correct-first-time>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

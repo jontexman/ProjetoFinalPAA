@@ -3,12 +3,14 @@
 <hotpot-jquiz-file>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <rdf:Description rdf:about="">
+    <dc:creator>danilo</dc:creator>
     <dc:creator>eoq</dc:creator>
+    <dc:title>Algoritmos de Dijkstra e Bellman-Ford</dc:title>
   </rdf:Description>
 </rdf:RDF><version>6</version>
 
 <data>
-<title></title>
+<title>Algoritmos de Dijkstra e Bellman-Ford</title>
 
 <timer><seconds>60</seconds><include-timer>0</include-timer></timer>
 
